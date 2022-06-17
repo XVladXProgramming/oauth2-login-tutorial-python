@@ -14,3 +14,5 @@ Account variables
 /////////////////
 {user.discriminator} - discriminator your account discord
 //////////////////
+
+tutorial by https://github.com/XVladXProgramming/oauth2-tutorial-python
