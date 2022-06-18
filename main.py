@@ -55,11 +55,11 @@ def me():
     return f"""
     <html>
         <head>
-            <title>{user.name}</title>
+            <title></title>
         </head>
         <body>
             <img src='{user.avatar_url}' />
-            <h1>Hey, {user.name}</h1>
+            <h1>Hey, {user.name}#{user.discriminator}!</h1>
         </body>
     </html>"""
 
