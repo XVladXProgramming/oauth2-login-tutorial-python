@@ -55,7 +55,7 @@ def me():
     return f"""
     <html>
         <head>
-            <title></title>
+            <title>{user.name}#{user.discriminator}</title>
         </head>
         <body>
             <img src='{user.avatar_url}' />
