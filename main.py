@@ -18,7 +18,7 @@ os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "true"      # !! Only in development
 
 app.config["DISCORD_CLIENT_ID"] = 1234567890    # Discord client ID.
 app.config["DISCORD_CLIENT_SECRET"] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"                # Discord client secret.
-app.config["DISCORD_REDIRECT_URI"] = "https://your-project-name.your-account-name.repl.co/callback/"                 # URL to your callback endpoint.
+app.config["DISCORD_REDIRECT_URI"] = "https://your-website-url/callback/"                 # URL to your callback endpoint.
 app.config["DISCORD_BOT_TOKEN"] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"                    # Required to access BOT resources.
 
 
